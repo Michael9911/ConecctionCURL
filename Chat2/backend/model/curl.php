@@ -13,7 +13,7 @@ class curl
 
   public function envioCurlMensaje($mensaje)//parametro de mensaje a enviar
   {
-    $url = "localhost/Bloack-Chain/backend/control/cCurl.php";//URL del otro servidor
+    $url = "localhost/Chat 1/backend/control/cCurl.php";//URL del otro servidor
     $postData = array("nombre" => "chat 2", "mensaje" => $mensaje);//informacion a enviar hacia el otro servidor
 
     $handler = curl_init();//Iniciacion de CURL
